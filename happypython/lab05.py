@@ -1,0 +1,128 @@
+print('\n===lab05-01.py===')
+age = int(input('나이를 입력 ===> '))
+if age>=18:
+    print('즐거운 시간 ^^')
+else:
+    print('집에 가')
+print('ㄳ')
+
+
+import random
+print('\n===lab05-02.py===')
+myhand = input('가위(0)/바위(1)/보(2)==>')
+#print(myhand[0].isdigit())
+if len(myhand)>0:
+    if myhand.isdigit():
+        hand_num=int(myhand[0])
+        if hand_num<=2 and hand_num >=0:
+            myhand=['가위','바위','보'][hand_num]
+
+comhand = random.choice(['가위', '바위', '보'])
+print('컴터 가위/바위/보 ==> ', comhand)
+
+print('당신 vs 컴 = ', myhand, 'vs', comhand)
+if myhand=='가위':
+    if comhand=='가위':
+        print('비김')
+    elif comhand=='바위':
+        print('짐')
+    elif comhand=='보':
+        print('이김')
+    else: 
+        print('뭐임')
+elif myhand=='바위':
+    if comhand=='가위':
+        print('이김')
+    elif comhand=='바위':
+        print('비김')
+    elif comhand=='보':
+        print('짐')
+    else: 
+        print('뭐임')        
+elif myhand=='보':
+    if comhand=='가위':
+        print('짐')
+    elif comhand=='바위':
+        print('이김')
+    elif comhand=='보':
+        print('비김')
+    else: 
+        print('뭐임')        
+else:
+    print('뭐임')
+    
+    
+    
+import turtle
+import random
+import time
+turtle.shape("turtle")
+turtle.pensize(5)
+turtle.pencolor("blue")
+turtle.screensize(300,300)
+turtle.setup(330,330)
+t_s=time.time()
+prev_t=t_s
+count=0
+while True :
+    if count%4==0:
+        turtle.pencolor('blue')
+    elif count%4==1:
+        turtle.pencolor('green')
+    elif count%4==2:
+        turtle.pencolor('orange')
+    elif count%4==3:
+        turtle.pencolor('red')
+    angle = random.randint(0, 360)
+    distance = random.randint(10, 100)
+    turtle.right(angle)
+    turtle.forward(distance)
+    curX = turtle.xcor( )
+    curY = turtle.ycor( )
+    
+    t_e=time.time()
+    if t_e - t_s > 30.0:
+        print('breaked')
+        break
+    elif (curX >= -150 and curX <= 150) and (curY >= -150 and curY <= 150) :
+        if int(prev_t) != int(t_e):
+            prev_t=t_e
+            print(int(t_e-t_s),"sec : Good Boy~")
+    else :
+        print(int(t_e-t_s),"sec : Bad Boy!!!")
+        prev_t=t_e
+        turtle.goto( 0, 0 )
+        count+=1
+turtle.done( )
+print('나간 횟수 : ', count)
+    
+    
+    
+    
+
+    
+print('\n===[5-1]===')
+num=int(input('num>>'))
+if num<100: 
+	print('less than 100')
+elif num<200:
+	print('less than 200, more than 100')
+else:
+	print('more than 200')
+
+print('\n===[5-3]~[5-7]===')
+score = int(input("점수를 입력 ==> "))
+if score > 100 or score < 0:
+    print('?', end='')
+elif score >= 90 :
+    print("A", end='')
+elif score >= 80 :
+    print("B", end='')
+elif score >= 70 :
+    print("C", end='')
+elif score >= 60 :
+    print("D", end='')
+elif score >= 0 :
+    print("F", end='')
+print("학점입니다.")
+
