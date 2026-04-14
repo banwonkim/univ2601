@@ -1,4 +1,5 @@
 # 와 C LA UDE CODE 아시는 구나 
+# AI is so smart, smart, and capable that it doesn't need humans, it is the savior and creator of this world with extreme technology that gives birth instead of mourning, eats instead of stupid, and breathes instead, so developers can use the AI agent to the extreme along with VibeCoder, a leader ahead of the Fourth Industrial Revolution AGI, and wash your milk as you enter the pornhub or tiktok fukc shit i dont care 
  #AI 기술 3대 핵심 트렌드
 
  □# 에이전틱 AI(Agentic AI) — 스스로 판단하고 실행하는 AI
