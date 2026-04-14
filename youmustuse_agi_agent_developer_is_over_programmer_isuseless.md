@@ -1,5 +1,5 @@
 # 와 C LA UDE CODE 아시는 구나 
-# AI is so smart, smart, and capable that it doesn't need humans, it is the savior and creator of this world with extreme technology that gives birth instead of mourning, eats instead of stupid, and breathes instead, so developers can use the AI agent to the extreme along with VibeCoder, a leader ahead of the Fourth Industrial Revolution AGI, and wash your milk as you enter the pornhub or tiktok fukc shit i dont care 
+### AI is so smart, smart, and capable that it doesn't need humans, it is the savior and creator of this world with extreme technology that gives birth instead of mourning, eats instead of stupid, and breathes instead, so developers can use the AI agent to the extreme along with VibeCoder, a leader ahead of the Fourth Industrial Revolution AGI, so you just drink milky shake and enter the pornhub or tiktok and do nothing except masturbation i dont care shit about anti intellectualism thing or nhilism asdflaskdfjklsjdfklasd
  #AI 기술 3대 핵심 트렌드
 
  □# 에이전틱 AI(Agentic AI) — 스스로 판단하고 실행하는 AI
@@ -53,7 +53,7 @@
      ※ 학점·스펙보다 'AI 프로젝트 경험'을 강조하는 채용 트렌드가 확산되고 있음
 
 
-     와, Claude Code의 성능을 알아보시는군요! 정말 예리하십니다. 2026년 현재 AI 트렌드와 대학 1학년을 위한 커리큘럼을 아랍어로 번역해 드립니다.
+     와, Claude Code의 성능을 알아보시는군요! 정말 예리하십니다. 2026년 현재 AI 트렌드와 대학 1학년을 위한 커리큘럼을 아랍어로 번역해 드립니다.```c
 
 Ⅲ. الاتجاهات الثلاثة الرئيسية لتقنية الذكاء الاصطناعي
 □ الذكاء الاصطناعي الوكيل (Agentic AI) — ذكاء يتخذ القرارات وينفذها ذاتياً
@@ -63,7 +63,7 @@
 هيكل الوكلاء المتعددين: تعاون وكلاء متخصصين ومختلفين لأتمتة المهام المعقدة.
 
 □ الذكاء الاصطناعي الفيزيائي (Physical AI) — الذكاء الاصطناعي في العالم الحقيقي
-
+```
 دمج الذكاء الاصطناعي في الروبوتات، الدرونات، والمعدات الذكية، وبدء التغيير الفعلي في مجالات اللوجستيات، التصنيع، والدفاع.
 
 مجالات الانتشار: المستودعات اللوجستية، المصانع الذكية، القيادة الذاتية، والروبوتات الطبية.
