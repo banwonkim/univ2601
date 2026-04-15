@@ -17,6 +17,7 @@ FROM $REL
 ```
 
 ## SELECT EXAMPLE
+- 1
 $RNAME = DEPTTABLE
 
 |NO | NAME|
@@ -31,32 +32,72 @@ SELECT NO, NAME
 FROM DEPTTABLE 
 ```
 
-## DISTINCT 
+- 2 DISTINCT 
 
 $RNAME : EMP
-```
------
-TITLE
------
-CEO
-CEO 
-MANAGER
-MANAGER
-LABOR
-LABOR
-SLAVE
-```
+| TITLE |
+| :--- |
+| CEO |
+| CEO |
+| MANAGER |
+| MANAGER |
+| LABOR |
+| SLAVE |
+| SLAVE |
 
 ```sql
-SELECT TITLE
+SELECT DISTINCT TITLE
 FROM EMP
 ```
+| TITLE |
+| :--- |
+| CEO |
+| MANAGER |
+| LABOR |
+| SLAVE |
+
+
+- 3 WHERE 
+
+```SQL
+SELECT *
+FROM EMP
+WHERE NO=2
 ```
------
-TITLE
------
-CEO
-MANAGER
-LABOR
-SLAVE
+
+| EMPNO | NAME | DNO |
+| :--- | --- | --- |
+| 123 | B | 2 |
+| 456 | C | 2 |
+
+```SQL 
+SELECT EMP 
+FROM GUY
+WHERE NAME LIKE 'B%';
 ```
+
+
+|NAME|NO|
+| :--- | --- |
+|BILLY|1|
+|BUNNY |2|
+
+- 4 잘못된 질의 
+```
+--WRONG
+WHERE NAME='SHIT' AND NAME='DIRTY' 
+
+-- ANSWER1
+WHERE NAME='SHIT' OR NAME='DIRTY' 
+
+-- ANSWER2
+WHERE NAME IN ('SHIT', 'DIRTY')
+```
+
+우선순위 
+|OP|ORDER|
+| :--- | --- | 
+|비교 연산자|1|
+|NOT|2|
+|AND |3|
+|OR|4|
