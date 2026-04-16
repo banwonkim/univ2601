@@ -1,0 +1,26 @@
+# 신경망 학습
+## 개념
+### Loss 
+관측값(Ground-Truth)과 추정값() 사이의 오차
+
+### Linear regression
+-`y` 정답 라벨(결과값)
+-`f_w(x)` 예상 라벨(예상값)
+- `Loss = f_w(x) - y`
+
+### 손실함수 Loss Function / Cost Function
+관측값(Ground-Truth)과 모델 예측값 사이 오차 표현
+
+
+### one hot encoding
+1, 0으로 원소 특징을 표현?
+
+[A B C D]
+[0 0 0 1]
+
+
+
+
+### 평균제곱오차 (MS )
+
+### Cross Entropy 
